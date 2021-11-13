@@ -4,7 +4,7 @@
 const getUserChoice = userInput =>
 {
   //remove issue of case
-  userInput.toLowerCase();
+  userInput = userInput.toLowerCase();
   //make sure user entered one of the three correct choices: rock, paper, or scissors.
   switch (userInput)
   {

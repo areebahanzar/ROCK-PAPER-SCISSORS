@@ -40,7 +40,7 @@ const getComputerChoice = (value) =>
 
 
 // RESULTS
-Const determineWinner = (userChoice, computerChoice) =>
+const determineWinner = (userChoice,computerChoice) =>
 {
   //SCENARIO: TIE
   if (userChoice === computerChoice)
@@ -67,7 +67,7 @@ Const determineWinner = (userChoice, computerChoice) =>
 }
 
 //PLAY AND PRINT RESULTS
-const playGame = (userChoice) =>
+const playGame = userChoice =>
 {
   userChoice = getUserChoice(userChoice);
   computerChoice = getComputerChoice();
@@ -76,6 +76,10 @@ const playGame = (userChoice) =>
   console.log('Here are the results: ' + determineWinner(userChoice,computerChoice));
 }
 
-//LETS PLAY
+
+  //LETS PLAY
+
+playGame('rock');
+
 
 playGame('paper'); //I added paper as my choice, but you can change it!!! 

@@ -78,4 +78,4 @@ const playGame = (userChoice) =>
 
 //LETS PLAY
 
-playGame('paper');
+playGame('paper'); //I added paper as my choice, but you can change it!!! 
